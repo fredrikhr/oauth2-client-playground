@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "del", "del", "{B790C871-C183-4867-B843-80167F6A12A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "THNETII.RepositoryTemplateDotnet.DeleteMe", "del\THNETII.RepositoryTemplateDotnet.DeleteMe\THNETII.RepositoryTemplateDotnet.DeleteMe.csproj", "{9959F03F-6515-4DBA-8F4F-4E7C681B2DB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{66A06538-5B66-4139-A11E-6F5256B03A60}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		Directory.Meta.props = Directory.Meta.props
+		LICENSE = LICENSE
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9959F03F-6515-4DBA-8F4F-4E7C681B2DB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9959F03F-6515-4DBA-8F4F-4E7C681B2DB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9959F03F-6515-4DBA-8F4F-4E7C681B2DB6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9959F03F-6515-4DBA-8F4F-4E7C681B2DB6}.Debug|x64.Build.0 = Debug|Any CPU
+		{9959F03F-6515-4DBA-8F4F-4E7C681B2DB6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9959F03F-6515-4DBA-8F4F-4E7C681B2DB6}.Debug|x86.Build.0 = Debug|Any CPU
+		{9959F03F-6515-4DBA-8F4F-4E7C681B2DB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9959F03F-6515-4DBA-8F4F-4E7C681B2DB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9959F03F-6515-4DBA-8F4F-4E7C681B2DB6}.Release|x64.ActiveCfg = Release|Any CPU
+		{9959F03F-6515-4DBA-8F4F-4E7C681B2DB6}.Release|x64.Build.0 = Release|Any CPU
+		{9959F03F-6515-4DBA-8F4F-4E7C681B2DB6}.Release|x86.ActiveCfg = Release|Any CPU
+		{9959F03F-6515-4DBA-8F4F-4E7C681B2DB6}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9959F03F-6515-4DBA-8F4F-4E7C681B2DB6} = {B790C871-C183-4867-B843-80167F6A12A6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4B6507C-0B39-4CC9-8182-744041BE990E}
+	EndGlobalSection
+EndGlobal
