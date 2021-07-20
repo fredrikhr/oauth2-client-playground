@@ -1,0 +1,46 @@
+{
+  "version": "1.0",
+  "defaultProvider": "unpkg",
+  "libraries": [
+    {
+      "library": "office-ui-fabric-core@11.0.0",
+      "destination": "wwwroot/lib/office-ui-fabric-core/",
+      "provider": "unpkg"
+    },
+    {
+      "library": "@fluentui/web-components@1.2.0",
+      "destination": "wwwroot/lib/@fluentui/web-components/",
+      "provider": "unpkg"
+    },
+    {
+      "library": "bootstrap@5.0.2",
+      "destination": "wwwroot/lib/bootstrap/",
+      "files": [
+        "dist/css/bootstrap-utilities.min.css.map",
+        "dist/css/bootstrap-utilities.min.css",
+        "dist/css/bootstrap-utilities.css.map",
+        "dist/css/bootstrap-utilities.css"
+      ]
+    },
+    {
+      "library": "https://github.com/microsoft/fluentui-system-icons/raw/master/fonts/FluentSystemIcons-Regular.css",
+      "provider": "filesystem",
+      "destination": "wwwroot/lib/@fluentui/css-icons/dist/fonts"
+    },
+    {
+      "library": "https://github.com/microsoft/fluentui-system-icons/raw/master/fonts/FluentSystemIcons-Regular.ttf",
+      "provider": "filesystem",
+      "destination": "wwwroot/lib/@fluentui/css-icons/dist/fonts"
+    },
+    {
+      "library": "https://github.com/microsoft/fluentui-system-icons/raw/master/fonts/FluentSystemIcons-Filled.css",
+      "provider": "filesystem",
+      "destination": "wwwroot/lib/@fluentui/css-icons/dist/fonts"
+    },
+    {
+      "library": "https://github.com/microsoft/fluentui-system-icons/raw/master/fonts/FluentSystemIcons-Filled.ttf",
+      "provider": "filesystem",
+      "destination": "wwwroot/lib/@fluentui/css-icons/dist/fonts"
+    }
+  ]
+}
