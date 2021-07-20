@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Create Profile - Microsoft Identity platform</title>
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.0.2/dist/css/bootstrap-utilities.min.css"
+        integrity="sha384-X0JWjIaT//CHAt34zrT2VcUwsX7GX7fbrCOyegCPmMbbFfcH87QfqF7ydY35abHx"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/11.0.0/css/fabric.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/site.min.css" />
+</head>
+<body class="ms-Fabric ms-Grid" dir="ltr">
+  <fluent-design-system-provider use-defaults>
+    <div class="ms-lgOffset2 ms-lg8 ms-sm12">
+      <header class="ms-textAlignCenter">
+        <h1 class="ms-fontSize-xxl ms-fontWeight-semibold">
+          <i class="ms-Icon ms-Icon--AccountManagement"></i>
+          <span>Microsoft Identity platform</span>
+        </h1>
+        <h2 class="ms-fontWeight-semilight ms-fontSize-xl">Create new OAuth profile</h2>
+      </header>
+      <main role="main" class="ms-depth-4">
+        <fluent-accordion>
+          <fluent-accordion-item slot="item" expanded>
+            <span slot="heading" class="ms-fontWeight-semibold ms-fontSize-l">
+              Select Authorization Instance
+            </span>
+            <form>
+              <section class="ms-Grid-row d-flex flex-wrap align-items-end">
+                <fluent-text-field class="ms-Grid-col ms-lg9 ms-sm12" value="login.microsoftonline.com">
+                  <i class="ms-Icon ms-Icon--Globe"></i>
+                  Instance
+                  <br />
+                  <span class="ms-fontWeight-semilight ms-fontSize-s">
+                    The hostname for the instance that handles authorization.
+                  </span>
+                </fluent-text-field>
+                <div class="ms-Grid-col ms-sm3 mt-1">
+                  <fluent-button class="w-100">
+                    Query
+                  </fluent-button>
+                </div>
+              </section>
+              <fluent-divider></fluent-divider>
+              <section>
+                <fluent-card class="p-2">
+                  <fluent-skeleton class="ms-sm12 my-1" style="height: 12px" shape="rect"></fluent-skeleton>
+                  <fluent-skeleton class="ms-sm12 my-1" style="height: 12px" shape="rect"></fluent-skeleton>
+                  <fluent-skeleton class="ms-sm12 my-1" style="height: 12px" shape="rect"></fluent-skeleton>
+                  <fluent-skeleton class="ms-sm12 my-1" style="height: 12px" shape="rect"></fluent-skeleton>
+                </fluent-card>
+              </section>
+            </form>
+          </fluent-accordion-item>
+        </fluent-accordion>
+      </main>
+    </div>
+  </fluent-design-system-provider>
+
+  <script type="module" src="https://unpkg.com/@fluentui/web-components@1.2.0/dist/web-components.min.js"
+          integrity="sha384-+8a3eGWPnXXEmK2eBcvx/TQc4fdMoqkOoXFGWj6JXeO/qicoE5ZsBSjRmG51Phlu"
+          crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="js/site.min.js"></script>
+</body>
+</html>
